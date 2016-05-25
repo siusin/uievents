@@ -14,9 +14,6 @@ install:
 - pushd ./bikeshed
 - popd
 - pip install --editable ./bikeshed
-#- bikeshed update
-# Instead of bikeshed update, we use a cached copy of the files to give consistent builds
-- cp .spec-data/* ./bikeshed/bikeshed/spec-data
 script: 'bikeshed spec'
 after_success:
 - '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && ./.deploy-output.sh'
