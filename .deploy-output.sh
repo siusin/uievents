@@ -12,7 +12,7 @@ mkdir ./out/tools
 cp tests/* ./out/tests
 cp images/* ./out/images
 cp tools/* ./out/tools
-cp style.css ./out/
+cp styles.css ./out/
 
 cd out
 git init
