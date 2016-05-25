@@ -2,7 +2,9 @@
 set -ev
 STATUS=`git log -1 --pretty=oneline`
 
-python build.py
+rm -rf out
+mkdir out
+
 cp index.html ./out/
 mkdir ./out/tests
 mkdir ./out/images
