@@ -4,12 +4,11 @@
 Shortname: uievents
 Level:
 Group: uievents
-Status: WD
+Status: ED
 TR: http://www.w3.org/TR/uievents/
 ED: https://github.com/w3c/uievents/
 Repository: w3c/uievents
-Previous Version:
-	https://www.w3.org/TR/2015/WD-uievents-20151215/
+Previous Version: http://www.w3.org/TR/2015/WD-uievents-20151215/
 	http://www.w3.org/TR/2015/WD-uievents-20150428/
 	http://www.w3.org/TR/2015/WD-uievents-20150319/
 Editor: Gary Kacmarcik, Google, garykac@google.com

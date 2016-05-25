@@ -191,7 +191,7 @@ of the DOM event architecture</em>
 
     Generally, when a constructor of an {{Event}} interface, or of an interface
     inherited from the {{Event}} interface, is invoked, the steps described in
-    [[!DOM]] should be followed. However the {{KeyboardEvent}} and
+    [[!DOM4]] should be followed. However the {{KeyboardEvent}} and
     {{MouseEvent}} interfaces provide additional dictionary members for
     initializing the internal state of the {{Event}} object's key modifiers:
     specifically, the internal state queried for using the

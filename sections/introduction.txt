@@ -142,7 +142,7 @@
 
         A specification or <a>host language</a> conforms to UI Events if it
         references and uses the [[#event-flow]] mechanism, interfaces, events,
-        or other features defined in [[!DOM]], and does not extend
+        or other features defined in [[!DOM4]], and does not extend
         these features in incompatible ways.
 
         A specification or <a>host language</a> conforms specifically to UI

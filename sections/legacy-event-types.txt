@@ -530,7 +530,7 @@ completeness.
 	designed, introduces a performance and implementation challenge.
 	</p>
 	<p>
-	DOM4 [[!DOM]] provides a new mechanism using a
+	DOM4 [[!DOM4]] provides a new mechanism using a
 	<code>MutationObserver</code> interface which addresses the use cases that
 	mutation events solve, but in a more performant manner. Thus, this
 	specification describes mutation events for reference and completeness of
